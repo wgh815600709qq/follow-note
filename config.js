@@ -1,0 +1,1 @@
+module.exports = { url:  'http://www.biquge.com.tw/8_8568/',  currentChapter: '第六百八十五章 白云城（下）'}
