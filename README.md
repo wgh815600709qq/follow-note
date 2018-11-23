@@ -12,4 +12,4 @@
 
 
 * 实现效果图
-![image](https://github.com/wgh815600709qq/follow-note/1.png)
+![image](https://github.com/wgh815600709qq/follow-note/blob/master/1.png)
