@@ -9,3 +9,7 @@
 
 * 定时任务
   每隔一个小时刷新一次，并把最新章节标记为已读。
+
+
+* 实现效果图
+![image](https://github.com/wgh815600709qq/follow-note/1.png)

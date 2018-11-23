@@ -19,7 +19,7 @@ function request(url, callback) {
     originRequest(options, callback)
 }
 
-// joxmkfxtrirmbbfg
+// 12位邮箱第三方登陆授权码
 function sendMessage(charpter) {
     let message = createMessage(charpter);
     transporter.sendMail(message, (error, info) => {
@@ -39,15 +39,15 @@ function sendMessage(charpter) {
 var transporter = nodemailer.createTransport({
     service: 'QQ',
     auth: {
-        user: '815600709@qq.com',//发送者邮箱
-        pass: 'joxmkfxtrirmbbfg' //邮箱第三方登录授权码
+        user: '8156XX709@qq.com',//发送者邮箱
+        pass: '12位邮箱第三方登陆授权码' //邮箱第三方登录授权码  [qq参考https://jingyan.baidu.com/article/fedf0737af2b4035ac8977ea.html]
     },
     logger: bunyan.createLogger({
         name: 'nodemailer'
     }),//打印日志
     debug: true
 }, {
-        from: '815600709@qq.com',//发送者邮箱
+        from: '8156XX709@qq.com',//发送者邮箱
         headers: {
             'X-Laziness-level': 1000
         }
